@@ -1,0 +1,161 @@
+[
+    {
+        "preguntaId": "3"
+        , "enunciado": "¿Cuantas personas viven en tu hogar?"
+        , "categoria": "no"
+        , "tipo": "radio"
+        , "respuestas": [
+            {
+                "idLabel": "3.1"
+                , "id": "3.1"
+                , "respuesta": "una"
+        }
+            , {
+                "idLabel": "3.2"
+                , "id": "3.2"
+                , "respuesta": "dos"
+        }
+            , {
+                "idLabel": "3.3"
+                , "id": "3.3"
+                , "respuesta": "tres"
+        }
+            , {
+                "idLabel": "3.4"
+                , "id": "3.4"
+                , "respuesta": "más de tres"
+		}
+        ]
+    }
+    , {
+        "preguntaId": "5"
+        , "enunciado": "¿Cuántos elementos de calefacción tienes en casa? (cuenta todos los radiadores, estufas, etc.)"
+        , "categoria": "energia"
+        , "tipo": "radio"
+        , "respuestas": [
+            {
+                "idLabel": "5.1"
+                , "id": "5.1"
+                , "respuesta": "No tengo ninguno"
+        }
+            , {
+                "idLabel": "5.2"
+                , "id": "5.2"
+                , "respuesta": "Tengo alguna estufa o calefactor móvil"
+        }
+            , {
+                "idLabel": "5.3"
+                , "id": "3.3"
+                , "respuesta": "Tengo un sistema de calefacción con radiadores fijos"
+		}
+        ]
+    }
+    , {
+        "preguntaId": "5"
+        , "enunciado": "¿Tu sistema de calefacción es central o individual?"
+        , "categoria": "energia"
+        , "tipo": "radio"
+        , "respuestas": [
+            {
+                "idLabel": "5.4"
+                , "id": "5.4"
+                , "respuesta": "Central, común para todo el edificio"
+        }
+            , {
+                "idLabel": "5.5"
+                , "id": "5.5"
+                , "respuesta": "Individual, solo para mi vivienda"
+        }
+        ]
+	}
+    , {
+        "preguntaId": "5"
+        , "enunciado": "Marca el número de radiadores"
+        , "categoria": "energia"
+        , "tipo": "radio"
+        , "respuestas": [
+            {
+                "idLabel": "5.6"
+                , "id": "5.6"
+                , "respuesta": "1 o 2"
+        }
+            , {
+                "idLabel": "5.7"
+                , "id": "5.7"
+                , "respuesta": "3 a 5"
+        }
+            , {
+                "idLabel": "5.8"
+                , "id": "5.8"
+                , "respuesta": "6 o más"
+        }
+        ]
+	}
+    , {
+        "preguntaId": "5"
+        , "enunciado": "Si tienes, marca los meses en que tienes encendida la calefacción"
+        , "categoria": "energia"
+        , "tipo": "checkbox"
+        , "respuestas": [
+            {
+                "idLabel": "5.9"
+                , "id": "5.9"
+                , "respuesta": "julio"
+        }
+            , {
+                "idLabel": "5.91"
+                , "id": "5.92"
+                , "respuesta": "agosto"
+        }
+            , {
+                "idLabel": "5.93"
+                , "id": "5.94"
+                , "respuesta": "septiembre"
+        }
+        ]
+	}
+    , {
+        "preguntaId": ""
+        , "enunciado": "¿Cuál es tu relación con las plantas?"
+        , "categoria": "agua"
+        , "tipo": "desplegable"
+        , "respuestas": [
+            {
+                "idLabel": "3.31"
+                , "id": "3.1"
+                , "valor": "0"
+                , "respuesta": ""
+        }
+            , {
+                "idLabel": "3.31"
+                , "id": "3.1"
+                , "valor": "0"
+                , "respuesta": "No hay plantas en mi casa"
+        }
+            , {
+                "idLabel": "3.32"
+                , "id": "3.2"
+                , "valor": "1"
+                , "respuesta": "Unas pocas macetas"
+        }
+            , {
+                "idLabel": "3.32"
+                , "id": "3.2"
+                , "valor": "7"
+                , "respuesta": "Tengo algunas jardineras"
+        }
+            , {
+                "idLabel": "3.32"
+                , "id": "3.2"
+                , "valor": "10"
+                , "respuesta": "Un jardincito"
+        }
+            , {
+                "idLabel": "3.32"
+                , "id": "3.2"
+                , "valor": "15"
+                , "respuesta": "Disfruto de un gran jardín con césped"
+        }
+        ]
+	}
+ ]

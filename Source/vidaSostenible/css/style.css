@@ -1,0 +1,21 @@
+body
+{
+	
+text-align: center;
+background-color: #d9d9d9;
+}
+
+.capaRespuesta {
+	background-color: white;
+	width: 500px;
+	border:solid #737373 2px;
+	text-align: left;
+    width: 60%;
+    padding: 20px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	box-sizing: border-box;
+    border-color: #bb332f;
+}

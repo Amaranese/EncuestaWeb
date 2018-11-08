@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vida Sostenible</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript/cogerdatos.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="http://www.vidasostenible.org/wp-content/themes/fvs/img/logo.png" alt="logo">
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="main row">
+      <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+        <p>
+          <h1>Mide tu huella ecológica personal</h1> Cumplimenta estas sencillas encuestas y cuantifica tu consumo de recursos. Seguro que te llevas una sorpresa. Cuando hayas terminado, pulsa el botón “Ver resultados”. Se generará una página personalizada que te indicará los puntos que puedes
+          modificar y te guiará paso a paso para tomar las acciones correspondientes.
+        </p>
+      </article>
+
+      <aside class="col-sm-4 col-md-3 col-lg-3 visible-lg visible-md">
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/T-AfDOSay4k" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </aside>
+      <div class="col-xs-12">
+        <hr class="separator">
+      </div>
+      <form id="formulario" action="php/insertarFormulario.php" method="POST">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12 encuesta" id="get_general">
+
+          <h2>Informacion General</h2>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12" onclick="showMaterials()" id="id_materials">
+            <div class="visible-lg imagen"> <img src="img/materials.jpg" alt="encuesta"> </div>
+            <div class="visible-md imagen"> <img src="img/materials_small.jpg" alt="encuesta"> </div>
+            <div class="visible-sm imagen"> <img src="img/materials_small.jpg" alt="encuesta"> </div>
+            <div class="visible-xs imagen"> <img src="img/materials.jpg" alt="encuesta"> </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12 hidden" id="get_materials">
+
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12" onclick="showTransport()" id="id_transport">
+            <div class="visible-lg imagen"> <img src="img/transport.jpg" alt="encuesta"> </div>
+            <div class="visible-md imagen"> <img src="img/transport_small.jpg" alt="encuesta"> </div>
+            <div class="visible-sm imagen"> <img src="img/transport_small.jpg" alt="encuesta"> </div>
+            <div class="visible-xs imagen"> <img src="img/transport.jpg" alt="encuesta"> </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12 hidden" id="get_transport">
+
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12" onclick="showEnergy()" id="id_energy">
+            <div class="visible-lg imagen"> <img src="img/energy.jpg" alt="encuesta"> </div>
+            <div class="visible-md imagen"> <img src="img/water_small.jpg" alt="encuesta"> </div>
+            <div class="visible-sm imagen"> <img src="img/water_small.jpg" alt="encuesta"> </div>
+            <div class="visible-xs imagen"> <img src="img/energy.jpg" alt="encuesta"> </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12 hidden" id="get_energy">
+
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12" onclick="showWater()" id="id_water">
+            <div class="visible-lg imagen"> <img src="img/water.jpg" alt="encuesta"> </div>
+            <div class="visible-md imagen"> <img src="img/water_small.jpg" alt="encuesta"> </div>
+            <div class="visible-sm imagen"> <img src="img/water_small.jpg" alt="encuesta"> </div>
+            <div class="visible-xs imagen"> <img src="img/water.jpg" alt="encuesta"> </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-12 hidden" id="get_water">
+
+          </div>
+
+        </div>
+        <div class="col-xs-12">
+          <hr class="separator">
+        </div>
+        <div class="col-md-12 text-center">
+          <input form="formulario" type="submit" value="Ver mi resultado" class="button">
+      </form>
+      </div>
+      <div class="col-xs-12">
+        <hr class="separator">
+      </div>
+    </div>
+  </div>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+
+<footer>
+  <div class="container">
+    <h3>Asociados a Pacto Mundial Red Española</h3>
+    <p>Otras iniciativas de FVS:</p>
+    <ul>
+      <li><a href="larutadelaenergia.org">La ruta de la Energia</a></li>
+      <li><a href="casarenovable.org">Casa renovable</a></li>
+    </ul>
+  </div>
+</footer>
+
+</html>

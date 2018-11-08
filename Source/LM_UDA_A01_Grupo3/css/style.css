@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2 {
+      color: #5B5D5E;
+      display: inline;
+}
+
+body {
+  padding: 20px 15%;
+  background: #cacaca;
+  font-family: 'Open Sans', sans-serif;
+}
+form header {
+  margin: 0 0 20px 0; 
+}
+
+
+form header div {
+  font-size: 90%;
+  color: #999;
+  margin-left: 20px;
+}
+form header h2 {
+  margin-left: 20px;
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (min-width: 320px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+  form > header > img {
+    width: 80%;
+  }
+
+  .user-detail > img {
+  width: 15%;
+}
+}
+@media (min-width: 800px) {
+  form > header > img {
+    width: 30%;
+  }
+   .user-detail > img {
+  width: 3%;
+}
+}
+
+.formbox {
+  border-top: 14px solid #b42a33;
+    box-shadow: 0px 10px 34px -1px rgba(0,0,0,0.75);
+    background: #fff;
+}
+
+hr {
+  width: 90%;
+}
+
+input[type=submit] {
+  border-style: none;
+    cursor: pointer;
+    height: 40px;
+    width: 90%;
+    margin: 2% 2.8%;
+    box-sizing: border-box;
+    background: #40474c;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+input[type=reset] {
+  border-style: none;
+    cursor: pointer;
+    height: 40px;
+    width: 90%;
+    margin: 2% 2.8%;
+    box-sizing: border-box;
+    background: #40474c;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
